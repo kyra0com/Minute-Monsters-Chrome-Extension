@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timers</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            width: 400px; /* Make the popup wide */
+            height: 300px; /* Adjust the height */
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pomodoro Timers</h1>
+    <div>
+        <button id="start-25-btn">Start 25-Min Timer</button>
+        <button id="start-5-btn">Start 5-Min Timer</button>
+        <button id="pause-btn" disabled>Pause Timer</button>
+    </div>
+    <div id="timer-display">
+        <h2>Time Left: <span id="time-left">00:00</span></h2>
+    </div>
+    <div id="balance-display">
+        <h2>Balance: $<span id="balance">1000</span></h2>
+        <button id="buy-monster-btn" disabled>Buy Monster ($500)</button>
+    </div>
+    <div id="monster-display"></div>
+    <script src="script.js"></script>
+</body>
+</html>

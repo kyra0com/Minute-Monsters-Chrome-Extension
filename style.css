@@ -1,4 +1,44 @@
-html {
-  height: 100%;
-  width: 100%;
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  background-color: #92b5a1; 
+  transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #073e78;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #93afcc;
+}
+
+button:disabled {
+  background-color: #d21414;
+  cursor: not-allowed;
+}
+
+#timer-display {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#balance-display {
+  margin-top: 20px;
+  font-size: 18px;
+  text-align: center;
+}
+
+#monster-display {
+  margin-top: 20px;
+  text-align: center;
 }

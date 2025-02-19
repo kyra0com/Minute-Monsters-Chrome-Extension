@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Minute Monsters",
+  "version": "1.0",
+  "description": "A Pomodero Technique mini game",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": []
+}
