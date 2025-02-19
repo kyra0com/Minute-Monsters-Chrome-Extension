@@ -49,7 +49,7 @@ document.getElementById("start-25-btn").addEventListener("click", () => {
 
 document.getElementById("start-5-btn").addEventListener("click", () => {
     const display = document.getElementById("time-left");
-    startTimer(5 * 60, display, "yellow", true);
+    startTimer(5 * 60, display, "#FFEE8C", true);
 });
 
 // Add event listener to pause button
