@@ -44,7 +44,7 @@ function updateBalance() {
 // Add event listeners to timer buttons
 document.getElementById("start-25-btn").addEventListener("click", () => {
     const display = document.getElementById("time-left");
-    startTimer(25 * 60, display, "darkblue");
+    startTimer(25 * 60, display, "#2F2F4F");
 });
 
 document.getElementById("start-5-btn").addEventListener("click", () => {
